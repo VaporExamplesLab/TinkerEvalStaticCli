@@ -1,5 +1,4 @@
-TinkerEvalStaticCli
-===================
+# TinkerEvalStaticCli
 
 **Question:** After `generate-xcodeproj`, what Xcode settings are needed to statically link a Swift Package Library into a simple command line executable … similar to what is produced by corresponding `swift build`?
 
