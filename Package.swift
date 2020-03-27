@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.2
 import PackageDescription
 
 let package = Package(
@@ -6,7 +6,7 @@ let package = Package(
     platforms: [
         // specify each minimum deployment requirement, 
         // otherwise the platform default minimum is used.
-        .macOS(.v10_13), // ..v10_13 High Sierra .v10_14 Mojave, .v10_15 Catalina 
+        .macOS(.v10_15), // Catalina 
     ],
     dependencies: [
         .package(url: "git@github.com:VaporExamplesLab/TinkerEvalStaticLib.git", .branch("master") ),
