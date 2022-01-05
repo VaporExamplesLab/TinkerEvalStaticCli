@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "TinkerEvalStaticLib",
+        "repositoryURL": "git@github.com:VaporExamplesLab/TinkerEvalStaticLib.git",
+        "state": {
+          "branch": "master",
+          "revision": "4a6f9b77b477f3f2af539fe104d1666a5f68a716",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

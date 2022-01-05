@@ -1,4 +1,4 @@
-// swift-tools-version:5.2
+// swift-tools-version:5.5
 import PackageDescription
 
 let package = Package(
@@ -12,7 +12,7 @@ let package = Package(
         .package(url: "git@github.com:VaporExamplesLab/TinkerEvalStaticLib.git", .branch("master") ),
     ],
     targets: [
-        .target(
+        .executableTarget(
             name: "TinkerEvalStaticCli",
             dependencies: ["TinkerEvalStaticLib"]),
     ],
